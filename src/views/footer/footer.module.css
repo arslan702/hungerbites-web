@@ -1,0 +1,41 @@
+.footer{
+  background: url('../../assets/images/footer_background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.footer::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(12, 7, 7, 0.938);
+  border-radius: 10px;
+  z-index: -1;
+}
+.logo{
+  display: flex;
+}
+.head{
+  color: #f57b24;
+  font-size: 24px;
+}
+.text{
+  color: white;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  width: 80%;
+  line-height: 25px;
+}
+.text2{
+  font-size: .9rem;
+  color: #fff;
+}
+.text3{
+  color: rgb(134, 133, 133);
+}

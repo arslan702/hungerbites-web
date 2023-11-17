@@ -1,0 +1,57 @@
+.special{
+    background: url('../../../assets/images/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 105vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.special::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.67);
+    border-radius: 10px;
+    z-index: -1;
+}
+.text{
+    color: #f57b24;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 2rem;
+}
+.cardImg{
+    width: 86%;
+}
+.card{
+    height: 70vh;
+    width: 90%;
+    border: 5px solid white;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.btns{
+    background: #f57b24;
+    border: 3px solid #f57b24;
+    color: #fff;
+    min-width: 219px;
+    padding: 10.5px 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px; 
+    cursor: pointer;
+}
+.btns:hover{
+    background: transparent;
+    cursor: pointer;
+    border-bottom: 5px solid #f57b24;
+}

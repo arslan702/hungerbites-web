@@ -1,0 +1,19 @@
+.register {
+    background: url('../../assets/images/hunger-register.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 125vh;
+    position: relative;
+}
+
+.register::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(12, 7, 7, 0.938);
+    border-radius: 10px;
+    z-index: -1;
+  }

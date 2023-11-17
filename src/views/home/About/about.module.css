@@ -1,0 +1,23 @@
+.about{
+    background-color: #E6E6E6;
+    height: 97vh;
+    padding-top: 4rem;
+}
+.head1{
+    font-size: 52px;
+    font-weight: bold;
+}
+.head3{
+    margin: 0 0 10px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    color: rgb(102, 102, 102);
+}
+.img{
+    border-radius: 50%;
+    height: 91vh;
+    width: 97%;
+    border: 10px solid #f1f1f1;
+margin:0 10px;
+}

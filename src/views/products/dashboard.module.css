@@ -1,0 +1,17 @@
+.mainContainer {
+  margin-top: 75px;
+}
+.bannerImage {
+  overflow: hidden;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.ourStoryContainer {
+  background-image: url("../../assets/images/image21.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backgroundImage {
+  background: linear-gradient(90deg, #02958b 0%, rgba(2, 149, 139, 0) 100%);
+}

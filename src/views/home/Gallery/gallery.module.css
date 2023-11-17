@@ -1,0 +1,18 @@
+.gallery{
+    width: 83%;
+    margin: auto;
+}
+.galleryhead{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #f57b24;
+}
+.card{
+    height: 350px;
+    width: 100%;
+border: 3px solid white;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}

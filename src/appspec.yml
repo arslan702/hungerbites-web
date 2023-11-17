@@ -1,0 +1,23 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/production
+permissions:
+  - object: /var/www/html/production
+    pattern: "**"
+    owner: ubuntu
+    group: ubuntu
+hooks:
+  BeforeInstall:
+    - location: BeforeInstall.sh
+      runas: ubuntu
+      timeout: 100
+  AfterInstall:
+    - location: AfterInstall.sh
+      runas: ubuntu
+      timeout: 100
+  ApplicationStart:
+    - location: applicationstart.sh
+      runas: ubuntu
+      timeout: 100  
